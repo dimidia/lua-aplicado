@@ -64,4 +64,13 @@ test:UNTESTED "shell_format_command"
 test:UNTESTED "shell_read_no_subst"
 test:UNTESTED "shell_escape_many_no_subst"
 
+-- shell_wait covered by tests shell_read and shell_write
+test:UNTESTED "shell_wait"
+
+-- shell_write_async covered by shell_write
+test:UNTESTED "shell_write_async"
+
+-- TODO (in same patchset)
+test:UNTESTED "shell_write"
+
 test:run()
