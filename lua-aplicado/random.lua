@@ -22,7 +22,7 @@ local random_seed_from_string = function(base_string)
   arguments(
       "string", base_string
     )
-  return tonumber(string.sub(md5.sumhexa(base_string), 1, 9), 16)
+  return tonumber(string.sub(md5.sumhexa(base_string), 1, 7), 16)
 end
 
 --------------------------------------------------------------------------------
